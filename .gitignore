@@ -1,0 +1,42 @@
+# .gitignore
+
+# Binários e Build Go
+backend/core/bin/
+backend/core/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Node.js e Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Playwright Sidecar
+backend/sidecar/dist/
+backend/sidecar/.cache/
+test-results/
+playwright-report/
+
+# Frontend SPA (Vite + React)
+frontend/dist/
+frontend/.vite/
+
+# Arquivos de Ambiente e Segredos
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDEs e Sistema Operacional
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

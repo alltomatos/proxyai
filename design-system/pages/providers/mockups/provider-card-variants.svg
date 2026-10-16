@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 260" width="1180" height="260" style="background:#F8FAFC;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="shadow-card" x="-2%" y="-3%" width="104%" height="108%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- VARIANTE 1: API KEY (OPENAI) -->
+  <g transform="translate(0, 10)">
+    <rect x="0" y="0" width="374" height="236" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="36" cy="36" r="16" fill="#10A37F"/>
+    <text x="31" y="41" font-size="14" font-weight="700" fill="#FFFFFF">OA</text>
+    <text x="64" y="32" font-size="16" font-weight="700" fill="#0F172A">OpenAI Official</text>
+    <rect x="64" y="40" width="60" height="18" rx="4" fill="#EFF6FF"/>
+    <text x="70" y="53" font-size="10" font-weight="600" fill="#2563EB">API KEY</text>
+
+    <circle cx="334" cy="36" r="5" fill="#10B981"/>
+    <text x="286" y="40" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+
+    <line x1="20" y1="75" x2="354" y2="75" stroke="#F1F5F9" stroke-width="1"/>
+
+    <text x="20" y="100" font-size="11" fill="#64748B">Chaves Ativas: 3 contas em rotação</text>
+    <text x="20" y="120" font-size="11" fill="#64748B">Modelos: gpt-4o, gpt-4o-mini, o1-mini</text>
+    <text x="20" y="140" font-size="11" fill="#64748B">Latência média: 182ms · Falhas: 0.01%</text>
+    <text x="20" y="160" font-size="11" fill="#64748B">Saldo upstream restante: $412.50</text>
+
+    <rect x="20" y="184" width="105" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="38" y="204" font-size="11" font-weight="600" fill="#475569">Testar Ping</text>
+    
+    <rect x="135" y="184" width="105" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="154" y="204" font-size="11" font-weight="600" fill="#475569">Configurar</text>
+  </g>
+
+  <!-- VARIANTE 2: OAUTH (ANTHROPIC CLAUDE) -->
+  <g transform="translate(402, 10)">
+    <rect x="0" y="0" width="374" height="236" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="36" cy="36" r="16" fill="#D97706"/>
+    <text x="32" y="41" font-size="14" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="64" y="32" font-size="16" font-weight="700" fill="#0F172A">Anthropic Claude</text>
+    <rect x="64" y="40" width="55" height="18" rx="4" fill="#F3E8FF"/>
+    <text x="70" y="53" font-size="10" font-weight="600" fill="#7C3AED">OAUTH</text>
+
+    <circle cx="334" cy="36" r="5" fill="#10B981"/>
+    <text x="286" y="40" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+
+    <line x1="20" y1="75" x2="354" y2="75" stroke="#F1F5F9" stroke-width="1"/>
+
+    <text x="20" y="100" font-size="11" fill="#64748B">Sessão: Auto-Refresh pró-ativo ligado</text>
+    <text x="20" y="120" font-size="11" fill="#64748B">Expira em: 6 dias, 14 horas</text>
+    <text x="20" y="140" font-size="11" fill="#64748B">Modelos: claude-3-5-sonnet, haiku</text>
+    <text x="20" y="160" font-size="11" fill="#64748B">Rate-limit reset window: Automática</text>
+
+    <rect x="20" y="184" width="115" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="32" y="204" font-size="11" font-weight="600" fill="#475569">Renovar Token</text>
+    
+    <rect x="145" y="184" width="100" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="164" y="204" font-size="11" font-weight="600" fill="#475569">Configurar</text>
+  </g>
+
+  <!-- VARIANTE 3: WEB COOKIES / STEALTH (DUCKDUCKGO) -->
+  <g transform="translate(804, 10)">
+    <rect x="0" y="0" width="374" height="236" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="36" cy="36" r="16" fill="#EC4899"/>
+    <text x="28" y="41" font-size="13" font-weight="700" fill="#FFFFFF">DDG</text>
+    <text x="64" y="32" font-size="16" font-weight="700" fill="#0F172A">DuckDuckGo Web</text>
+    <rect x="64" y="40" width="85" height="18" rx="4" fill="#FCE7F3"/>
+    <text x="70" y="53" font-size="10" font-weight="600" fill="#DB2777">WEB STEALTH</text>
+
+    <circle cx="334" cy="36" r="5" fill="#10B981"/>
+    <text x="286" y="40" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+
+    <line x1="20" y1="75" x2="354" y2="75" stroke="#F1F5F9" stroke-width="1"/>
+
+    <text x="20" y="100" font-size="11" fill="#64748B">Sidecar: Playwright Warm Pool (4 contexts)</text>
+    <text x="20" y="120" font-size="11" fill="#64748B">Bypass VQD: 100% de sucesso</text>
+    <text x="20" y="140" font-size="11" fill="#64748B">Custo Upstream: $0.00 (Provedor Livre)</text>
+    <text x="20" y="160" font-size="11" fill="#64748B">Modelos: claude-3-haiku, gpt-4o-mini</text>
+
+    <rect x="20" y="184" width="110" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="32" y="204" font-size="11" font-weight="600" fill="#475569">Reciclar Pool</text>
+    
+    <rect x="140" y="184" width="100" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="159" y="204" font-size="11" font-weight="600" fill="#475569">Configurar</text>
+  </g>
+</svg>

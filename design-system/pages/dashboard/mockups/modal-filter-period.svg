@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 420" width="540" height="420" style="background:transparent;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="modal-shadow" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- BACKDROP SCRIM -->
+  <rect x="0" y="0" width="540" height="420" fill="#0F172A" fill-opacity="0.4"/>
+
+  <!-- MODAL CONTAINER -->
+  <rect x="30" y="25" width="480" height="370" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#modal-shadow)"/>
+
+  <!-- HEADER -->
+  <text x="54" y="62" font-size="17" font-weight="700" fill="#0F172A">Filtrar Período de Telemetria</text>
+  <text x="54" y="80" font-size="12" fill="#64748B">Selecione o intervalo de dados para métricas e auditoria</text>
+  <circle cx="480" cy="58" r="12" fill="#F1F5F9"/>
+  <text x="476" y="63" font-size="14" fill="#64748B">×</text>
+
+  <line x1="30" y1="98" x2="510" y2="98" stroke="#F1F5F9" stroke-width="1"/>
+
+  <!-- PRESETS RÁPIDOS -->
+  <text x="54" y="125" font-size="12" font-weight="600" fill="#475569">Atalhos Frequentes</text>
+  <g transform="translate(54, 138)">
+    <rect x="0" y="0" width="95" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="24" y="20" font-size="12" fill="#0F172A">Última 1h</text>
+
+    <rect x="108" y="0" width="95" height="32" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+    <text x="126" y="20" font-size="12" font-weight="600" fill="#4F46E5">Últimas 24h</text>
+
+    <rect x="216" y="0" width="95" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="234" y="20" font-size="12" fill="#0F172A">Últimos 7d</text>
+
+    <rect x="324" y="0" width="95" height="32" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="340" y="20" font-size="12" fill="#0F172A">Este Mês</text>
+  </g>
+
+  <!-- CUSTOM DATE RANGE INPUTS -->
+  <text x="54" y="205" font-size="12" font-weight="600" fill="#475569">Intervalo Personalizado</text>
+  
+  <text x="54" y="228" font-size="11" fill="#64748B">Data Inicial</text>
+  <rect x="54" y="236" width="200" height="36" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="68" y="259" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">2026-10-01 00:00</text>
+
+  <text x="274" y="228" font-size="11" fill="#64748B">Data Final</text>
+  <rect x="274" y="236" width="200" height="36" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="288" y="259" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">2026-10-15 14:30</text>
+
+  <!-- CHECKBOX AUTO REFRESH -->
+  <rect x="54" y="295" width="16" height="16" rx="4" fill="#4F46E5"/>
+  <text x="58" y="307" font-size="11" fill="#FFFFFF">✓</text>
+  <text x="78" y="308" font-size="12" fill="#475569">Atualização contínua em tempo real (Polling de 5s)</text>
+
+  <!-- FOOTER ACTIONS -->
+  <line x1="30" y1="335" x2="510" y2="335" stroke="#F1F5F9" stroke-width="1"/>
+  <rect x="300" y="350" width="90" height="34" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="322" y="372" font-size="12" font-weight="600" fill="#475569">Cancelar</text>
+
+  <rect x="402" y="350" width="90" height="34" rx="6" fill="#4F46E5"/>
+  <text x="424" y="372" font-size="12" font-weight="600" fill="#FFFFFF">Aplicar</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 60" width="1140" height="60" style="background:#FFFFFF;border-radius:6px;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <rect x="0" y="0" width="1140" height="60" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+
+  <text x="20" y="35" font-size="13" font-family="'JetBrains Mono', monospace" font-weight="600" fill="#0F172A">185.199.228.14</text>
+  <text x="240" y="35" font-size="13" font-family="'JetBrains Mono', monospace" fill="#64748B">8168</text>
+  <text x="360" y="35" font-size="12" font-weight="600" fill="#0F172A">🇺🇸 US / New York</text>
+  
+  <rect x="560" y="20" width="65" height="20" rx="4" fill="#EFF6FF"/>
+  <text x="570" y="34" font-size="10" font-weight="600" fill="#2563EB">DIRECT</text>
+
+  <text x="740" y="35" font-size="12" fill="#64748B">Há 2 minutos (OK)</text>
+  <text x="940" y="35" font-size="12" font-weight="600" fill="#059669">42ms</text>
+  
+  <rect x="1040" y="19" width="75" height="22" rx="11" fill="#ECFDF5"/>
+  <text x="1054" y="34" font-size="10" font-weight="700" fill="#059669">ONLINE</text>
+</svg>

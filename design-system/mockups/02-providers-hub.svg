@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" style="background:#F8FAFC;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="shadow-card" x="-2%" y="-2%" width="104%" height="106%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- TOPBAR -->
+  <rect x="0" y="0" width="1440" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="40" cy="32" r="14" fill="#4F46E5"/>
+  <path d="M35 32 L39 26 L45 38 L41 32 Z" fill="#FFFFFF"/>
+  <text x="64" y="37" font-size="16" font-weight="700" fill="#0F172A">ProxyAI</text>
+  <rect x="135" y="24" width="75" height="18" rx="4" fill="#EEF2FF"/>
+  <text x="142" y="37" font-size="10" font-weight="600" fill="#4F46E5">ENTERPRISE</text>
+
+  <!-- SEARCH BAR -->
+  <rect x="250" y="16" width="380" height="34" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="270" y="38" font-size="12" fill="#94A3B8">Buscar provedor ou modelo... (Cmd+K)</text>
+
+  <!-- USER -->
+  <rect x="1290" y="18" width="125" height="30" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="1296" y="23" width="20" height="20" rx="10" fill="#4F46E5"/>
+  <text x="1302" y="37" font-size="10" font-weight="700" fill="#FFFFFF">AC</text>
+  <text x="1324" y="38" font-size="12" font-weight="600" fill="#0F172A">Acme Corp</text>
+
+  <!-- SIDEBAR -->
+  <rect x="0" y="64" width="220" height="836" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="16" y="88" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="111" font-size="13" font-weight="500" fill="#475569">Dashboard Geral</text>
+
+  <rect x="16" y="132" width="188" height="36" rx="8" fill="#EEF2FF"/>
+  <circle cx="36" cy="150" r="4" fill="#4F46E5"/>
+  <text x="52" y="155" font-size="13" font-weight="600" fill="#4F46E5">Hub de Provedores</text>
+
+  <rect x="16" y="176" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="199" font-size="13" font-weight="500" fill="#475569">Construtor Combos</text>
+
+  <rect x="16" y="220" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="243" font-size="13" font-weight="500" fill="#475569">Chaves Virtuais</text>
+
+  <rect x="16" y="264" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="287" font-size="13" font-weight="500" fill="#475569">Faturamento &amp; Ledger</text>
+
+  <!-- MAIN VIEWPORT -->
+  <g transform="translate(244, 88)">
+    <text x="0" y="24" font-size="22" font-weight="700" fill="#0F172A">Hub de Provedores Conectados</text>
+    <text x="0" y="44" font-size="12" fill="#64748B">Centralize conexões via API Key, contas OAuth rotativas ou pools de cookies web stealth</text>
+
+    <!-- ACTION BUTTON -->
+    <rect x="1004" y="14" width="160" height="36" rx="8" fill="#4F46E5"/>
+    <text x="1024" y="37" font-size="13" font-weight="600" fill="#FFFFFF">+ Conectar Provedor</text>
+
+    <!-- FILTER TABS -->
+    <rect x="0" y="64" width="520" height="36" rx="8" fill="#F1F5F9" p="2"/>
+    <rect x="4" y="68" width="80" height="28" rx="6" fill="#FFFFFF"/>
+    <text x="32" y="86" font-size="12" font-weight="600" fill="#0F172A">Todos (12)</text>
+    <text x="110" y="86" font-size="12" font-weight="500" fill="#64748B">API Key (6)</text>
+    <text x="210" y="86" font-size="12" font-weight="500" fill="#64748B">OAuth 2.0 (4)</text>
+    <text x="320" y="86" font-size="12" font-weight="500" fill="#64748B">Web Cookies / Stealth (2)</text>
+
+    <!-- PROVIDER CARDS GRID -->
+    
+    <!-- CARD 1: OPENAI -->
+    <rect x="0" y="120" width="370" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="36" cy="156" r="16" fill="#10A37F"/>
+    <text x="31" y="161" font-size="14" font-weight="700" fill="#FFFFFF">OA</text>
+    <text x="64" y="152" font-size="16" font-weight="700" fill="#0F172A">OpenAI Official</text>
+    <rect x="64" y="160" width="60" height="18" rx="4" fill="#EFF6FF"/>
+    <text x="70" y="173" font-size="10" font-weight="600" fill="#2563EB">API KEY</text>
+
+    <circle cx="330" cy="156" r="6" fill="#10B981"/>
+    <text x="280" y="160" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+
+    <line x1="20" y1="195" x2="350" y2="195" stroke="#F1F5F9" stroke-width="1"/>
+
+    <text x="20" y="220" font-size="11" fill="#64748B">Chaves Ativas: 3 contas em pool</text>
+    <text x="20" y="240" font-size="11" fill="#64748B">Modelos: gpt-4o, gpt-4o-mini, o1-mini</text>
+    <text x="20" y="260" font-size="11" fill="#64748B">Latência média: 182ms · Erros: 0.01%</text>
+
+    <rect x="20" y="280" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="34" y="300" font-size="11" font-weight="600" fill="#475569">Testar Ping</text>
+    
+    <rect x="130" y="280" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="144" y="300" font-size="11" font-weight="600" fill="#475569">Configurar</text>
+
+    <!-- CARD 2: ANTHROPIC CLAUDE OAUTH -->
+    <rect x="396" y="120" width="370" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="432" cy="156" r="16" fill="#D97706"/>
+    <text x="428" y="161" font-size="14" font-weight="700" fill="#FFFFFF">C</text>
+    <text x="460" y="152" font-size="16" font-weight="700" fill="#0F172A">Anthropic Claude</text>
+    <rect x="460" y="160" width="55" height="18" rx="4" fill="#F3E8FF"/>
+    <text x="466" y="173" font-size="10" font-weight="600" fill="#7C3AED">OAUTH</text>
+
+    <circle cx="726" cy="156" r="6" fill="#10B981"/>
+    <text x="676" y="160" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+
+    <line x1="416" y1="195" x2="746" y2="195" stroke="#F1F5F9" stroke-width="1"/>
+
+    <text x="416" y="220" font-size="11" fill="#64748B">Sessão: Token Auto-Refresh (Pró-ativo)</text>
+    <text x="416" y="240" font-size="11" fill="#64748B">Expira em: 6 dias, 14 horas</text>
+    <text x="416" y="260" font-size="11" fill="#64748B">Modelos: claude-3-5-sonnet, haiku</text>
+
+    <rect x="416" y="280" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="430" y="300" font-size="11" font-weight="600" fill="#475569">Renovar Token</text>
+    
+    <rect x="526" y="280" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="540" y="300" font-size="11" font-weight="600" fill="#475569">Configurar</text>
+
+    <!-- CARD 3: DUCKDUCKGO WEB COOKIES -->
+    <rect x="792" y="120" width="370" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="828" cy="156" r="16" fill="#EC4899"/>
+    <text x="822" y="161" font-size="14" font-weight="700" fill="#FFFFFF">DDG</text>
+    <text x="856" y="152" font-size="16" font-weight="700" fill="#0F172A">DuckDuckGo AI (Web)</text>
+    <rect x="856" y="160" width="80" height="18" rx="4" fill="#FCE7F3"/>
+    <text x="862" y="173" font-size="10" font-weight="600" fill="#DB2777">WEB STEALTH</text>
+
+    <circle cx="1122" cy="156" r="6" fill="#10B981"/>
+    <text x="1072" y="160" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+
+    <line x1="812" y1="195" x2="1142" y2="195" stroke="#F1F5F9" stroke-width="1"/>
+
+    <text x="812" y="220" font-size="11" fill="#64748B">Sidecar: Playwright Warm Pool (4 contexts)</text>
+    <text x="812" y="240" font-size="11" fill="#64748B">Bypass: VQD Challenge automático</text>
+    <text x="812" y="260" font-size="11" fill="#64748B">Modelos: claude-3-haiku, gpt-4o-mini</text>
+
+    <rect x="812" y="280" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="826" y="300" font-size="11" font-weight="600" fill="#475569">Reciclar Pool</text>
+    
+    <rect x="922" y="280" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="936" y="300" font-size="11" font-weight="600" fill="#475569">Configurar</text>
+
+    <!-- ROW 2: DEEPSEEK + GOOGLE GEMINI + OPENROUTER -->
+    <rect x="0" y="360" width="370" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="36" cy="396" r="16" fill="#0284C7"/>
+    <text x="30" y="401" font-size="14" font-weight="700" fill="#FFFFFF">DS</text>
+    <text x="64" y="392" font-size="16" font-weight="700" fill="#0F172A">DeepSeek V3 (Direct)</text>
+    <rect x="64" y="400" width="60" height="18" rx="4" fill="#EFF6FF"/>
+    <text x="70" y="413" font-size="10" font-weight="600" fill="#2563EB">API KEY</text>
+    <circle cx="330" cy="396" r="6" fill="#F59E0B"/>
+    <text x="260" y="400" font-size="11" font-weight="600" fill="#D97706">DEGRADED</text>
+    <line x1="20" y1="435" x2="350" y2="435" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="20" y="460" font-size="11" fill="#64748B">Taxa 429: 14.2% nas últimas 2h</text>
+    <text x="20" y="480" font-size="11" fill="#64748B">Custo: $0.14 / 1M Prompt</text>
+    <text x="20" y="500" font-size="11" fill="#64748B">Circuit Breaker desvia para OpenAI</text>
+    <rect x="20" y="520" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="34" y="540" font-size="11" font-weight="600" fill="#475569">Reset Breaker</text>
+
+    <!-- CARD 5: GOOGLE GEMINI -->
+    <rect x="396" y="360" width="370" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="432" cy="396" r="16" fill="#2563EB"/>
+    <text x="428" y="401" font-size="14" font-weight="700" fill="#FFFFFF">G</text>
+    <text x="460" y="392" font-size="16" font-weight="700" fill="#0F172A">Google Gemini CLI</text>
+    <rect x="460" y="400" width="55" height="18" rx="4" fill="#F3E8FF"/>
+    <text x="466" y="413" font-size="10" font-weight="600" fill="#7C3AED">OAUTH</text>
+    <circle cx="726" cy="396" r="6" fill="#10B981"/>
+    <text x="676" y="400" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+    <line x1="416" y1="435" x2="746" y2="435" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="416" y="460" font-size="11" fill="#64748B">Conexão: Antigravity OAuth Token</text>
+    <text x="416" y="480" font-size="11" fill="#64748B">Modelos: gemini-2.5-pro, flash-thinking</text>
+    <text x="416" y="500" font-size="11" fill="#64748B">Quota diária: 1.2M tokens restantes</text>
+    <rect x="416" y="520" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="430" y="540" font-size="11" font-weight="600" fill="#475569">Ver Quota</text>
+
+    <!-- CARD 6: OPENROUTER -->
+    <rect x="792" y="360" width="370" height="220" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <circle cx="828" cy="396" r="16" fill="#7C3AED"/>
+    <text x="822" y="401" font-size="14" font-weight="700" fill="#FFFFFF">OR</text>
+    <text x="856" y="392" font-size="16" font-weight="700" fill="#0F172A">OpenRouter Gateway</text>
+    <rect x="856" y="400" width="60" height="18" rx="4" fill="#EFF6FF"/>
+    <text x="862" y="413" font-size="10" font-weight="600" fill="#2563EB">API KEY</text>
+    <circle cx="1122" cy="396" r="6" fill="#10B981"/>
+    <text x="1072" y="400" font-size="11" font-weight="600" fill="#059669">ATIVO</text>
+    <line x1="812" y1="435" x2="1142" y2="435" stroke="#F1F5F9" stroke-width="1"/>
+    <text x="812" y="460" font-size="11" fill="#64748B">Backup geral: 150+ modelos alternativos</text>
+    <text x="812" y="480" font-size="11" fill="#64748B">Saldo upstream restante: $148.20</text>
+    <text x="812" y="500" font-size="11" fill="#64748B">Uso: Roteamento de cauda longa</text>
+    <rect x="812" y="520" width="100" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="826" y="540" font-size="11" font-weight="600" fill="#475569">Recarregar</text>
+  </g>
+</svg>

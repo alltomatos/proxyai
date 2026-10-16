@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 460" width="540" height="460" style="background:transparent;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="modal-shadow-target" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="540" height="460" fill="#0F172A" fill-opacity="0.4"/>
+  <rect x="30" y="20" width="480" height="420" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#modal-shadow-target)"/>
+
+  <!-- HEADER -->
+  <text x="54" y="56" font-size="17" font-weight="700" fill="#0F172A">Configurar Alvo de Failover</text>
+  <text x="54" y="74" font-size="12" fill="#64748B">Ajuste timeouts, retry-after e condições de disparo deste nó</text>
+  <circle cx="480" cy="52" r="12" fill="#F1F5F9"/>
+  <text x="476" y="57" font-size="14" fill="#64748B">×</text>
+
+  <line x1="30" y1="92" x2="510" y2="92" stroke="#F1F5F9" stroke-width="1"/>
+
+  <!-- SELECT MODEL -->
+  <text x="54" y="120" font-size="12" font-weight="600" fill="#475569">Modelo Alvo / Provedor</text>
+  <rect x="54" y="130" width="420" height="38" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="68" y="154" font-size="12" fill="#0F172A">DeepSeek V3 (Local / Direto) — $0.14 / 1M</text>
+  <text x="450" y="154" font-size="11" fill="#94A3B8">▼</text>
+
+  <!-- TIMEOUT CONFIG -->
+  <text x="54" y="195" font-size="12" font-weight="600" fill="#475569">Timeout Máximo de Espera do Stream (Segundos)</text>
+  <rect x="54" y="205" width="200" height="38" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="68" y="229" font-size="13" font-family="'JetBrains Mono', monospace" fill="#0F172A">8</text>
+
+  <!-- RETRY ATTEMPTS -->
+  <text x="274" y="195" font-size="12" font-weight="600" fill="#475569">Tentativas antes de Pular</text>
+  <rect x="274" y="205" width="200" height="38" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="288" y="229" font-size="13" font-family="'JetBrains Mono', monospace" fill="#0F172A">1 (Failover Imediato)</text>
+
+  <!-- CHECKBOXES DE DISPARO DE FALLBACK -->
+  <text x="54" y="275" font-size="12" font-weight="600" fill="#475569">Gatilhos para Pular para o Próximo Modelo</text>
+  
+  <rect x="54" y="290" width="16" height="16" rx="4" fill="#4F46E5"/>
+  <text x="58" y="302" font-size="11" fill="#FFFFFF">✓</text>
+  <text x="78" y="303" font-size="12" fill="#475569">Pular em HTTP 429 (Rate Limit Exceeded)</text>
+
+  <rect x="54" y="318" width="16" height="16" rx="4" fill="#4F46E5"/>
+  <text x="58" y="330" font-size="11" fill="#FFFFFF">✓</text>
+  <text x="78" y="331" font-size="12" fill="#475569">Pular em HTTP 5xx (Erro interno do provedor)</text>
+
+  <rect x="54" y="346" width="16" height="16" rx="4" fill="#4F46E5"/>
+  <text x="58" y="358" font-size="11" fill="#FFFFFF">✓</text>
+  <text x="78" y="359" font-size="12" fill="#475569">Pular se o Circuit Breaker do provedor estiver OPEN</text>
+
+  <!-- FOOTER -->
+  <line x1="30" y1="385" x2="510" y2="385" stroke="#F1F5F9" stroke-width="1"/>
+  <rect x="290" y="398" width="95" height="34" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="316" y="420" font-size="12" font-weight="600" fill="#475569">Cancelar</text>
+
+  <rect x="395" y="398" width="105" height="34" rx="6" fill="#4F46E5"/>
+  <text x="412" y="420" font-size="12" font-weight="600" fill="#FFFFFF">Salvar Alvo</text>
+</svg>

@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" style="background:#F8FAFC;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="shadow-card" x="-2%" y="-2%" width="104%" height="106%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- TOPBAR -->
+  <rect x="0" y="0" width="1440" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="40" cy="32" r="14" fill="#4F46E5"/>
+  <path d="M35 32 L39 26 L45 38 L41 32 Z" fill="#FFFFFF"/>
+  <text x="64" y="37" font-size="16" font-weight="700" fill="#0F172A">ProxyAI</text>
+  <rect x="135" y="24" width="75" height="18" rx="4" fill="#EEF2FF"/>
+  <text x="142" y="37" font-size="10" font-weight="600" fill="#4F46E5">ENTERPRISE</text>
+
+  <!-- SIDEBAR -->
+  <rect x="0" y="64" width="220" height="836" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="16" y="88" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="111" font-size="13" font-weight="500" fill="#475569">Dashboard Geral</text>
+
+  <rect x="16" y="132" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="155" font-size="13" font-weight="500" fill="#475569">Hub de Provedores</text>
+
+  <rect x="16" y="176" width="188" height="36" rx="8" fill="#EEF2FF"/>
+  <circle cx="36" cy="194" r="4" fill="#4F46E5"/>
+  <text x="52" y="199" font-size="13" font-weight="600" fill="#4F46E5">Construtor Combos</text>
+
+  <rect x="16" y="220" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="243" font-size="13" font-weight="500" fill="#475569">Chaves Virtuais</text>
+
+  <rect x="16" y="264" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="287" font-size="13" font-weight="500" fill="#475569">Faturamento &amp; Ledger</text>
+
+  <!-- MAIN VIEWPORT -->
+  <g transform="translate(244, 88)">
+    <text x="0" y="24" font-size="22" font-weight="700" fill="#0F172A">Construtor de Combos &amp; Roteamento Inteligente</text>
+    <text x="0" y="44" font-size="12" fill="#64748B">Crie pipelines automáticos de failover sequencial, balanceamento ponderado e otimização de custos</text>
+
+    <!-- ACTION BUTTONS -->
+    <rect x="990" y="14" width="174" height="36" rx="8" fill="#4F46E5"/>
+    <text x="1010" y="37" font-size="13" font-weight="600" fill="#FFFFFF">+ Salvar Novo Combo</text>
+
+    <!-- LEFT: COMBO CONFIG & PIPELINE (740px) -->
+    <rect x="0" y="70" width="760" height="710" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    
+    <text x="24" y="104" font-size="16" font-weight="700" fill="#0F172A">Pipeline: Smart-Coder-Resilient</text>
+    <rect x="260" y="90" width="80" height="20" rx="10" fill="#EEF2FF"/>
+    <text x="270" y="104" font-size="10" font-weight="700" fill="#4F46E5">PRIORITY</text>
+
+    <text x="24" y="128" font-size="11" fill="#64748B">Alias Virtual de Modelo:</text>
+    <rect x="150" y="114" width="220" height="24" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="160" y="130" font-size="11" font-family="'JetBrains Mono', monospace" fill="#0F172A">proxyai/coding-auto</text>
+
+    <!-- STEP 1: PRIMARY TARGET -->
+    <g transform="translate(24, 150)">
+      <rect x="0" y="0" width="712" height="110" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1.5"/>
+      <rect x="16" y="16" width="24" height="24" rx="12" fill="#4F46E5"/>
+      <text x="24" y="33" font-size="12" font-weight="700" fill="#FFFFFF">1</text>
+      
+      <text x="48" y="32" font-size="15" font-weight="700" fill="#0F172A">Alvo Primário: DeepSeek V3 (Local / Direto)</text>
+      <rect x="360" y="18" width="70" height="20" rx="4" fill="#EFF6FF"/>
+      <text x="368" y="32" font-size="10" font-weight="600" fill="#2563EB">ECONOMIA</text>
+
+      <text x="48" y="56" font-size="12" fill="#64748B">Custo: $0.14 / 1M In · $0.28 / 1M Out · Timeout: 8s</text>
+      <text x="48" y="76" font-size="12" fill="#64748B">Condição de Fallback: Se status = 429, 5xx ou Circuit Breaker = OPEN</text>
+
+      <rect x="620" y="20" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="632" y="37" font-size="11" font-weight="600" fill="#475569">Editar</text>
+    </g>
+
+    <!-- CONNECTOR LINE 1 -->
+    <line x1="380" y1="260" x2="380" y2="290" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4"/>
+    <circle cx="380" cy="275" r="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="376" y="279" font-size="10" font-weight="700" fill="#64748B">v</text>
+
+    <!-- STEP 2: FALLBACK 1 -->
+    <g transform="translate(24, 290)">
+      <rect x="0" y="0" width="712" height="110" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <rect x="16" y="16" width="24" height="24" rx="12" fill="#D97706"/>
+      <text x="24" y="33" font-size="12" font-weight="700" fill="#FFFFFF">2</text>
+      
+      <text x="48" y="32" font-size="15" font-weight="700" fill="#0F172A">Fallback 1: OpenAI (GPT-4o-mini)</text>
+      <rect x="300" y="18" width="85" height="20" rx="4" fill="#FEF3C7"/>
+      <text x="308" y="32" font-size="10" font-weight="600" fill="#D97706">ALTA VELOCIDADE</text>
+
+      <text x="48" y="56" font-size="12" fill="#64748B">Custo: $0.15 / 1M In · $0.60 / 1M Out · Timeout: 12s</text>
+      <text x="48" y="76" font-size="12" fill="#64748B">Condição de Fallback: Se status != 200 ou latência > 2500ms</text>
+
+      <rect x="620" y="20" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="632" y="37" font-size="11" font-weight="600" fill="#475569">Editar</text>
+    </g>
+
+    <!-- CONNECTOR LINE 2 -->
+    <line x1="380" y1="400" x2="380" y2="430" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="4"/>
+    <circle cx="380" cy="415" r="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <text x="376" y="419" font-size="10" font-weight="700" fill="#64748B">v</text>
+
+    <!-- STEP 3: FALLBACK RESIDUAL -->
+    <g transform="translate(24, 430)">
+      <rect x="0" y="0" width="712" height="110" rx="10" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="1"/>
+      <rect x="16" y="16" width="24" height="24" rx="12" fill="#10B981"/>
+      <text x="24" y="33" font-size="12" font-weight="700" fill="#FFFFFF">3</text>
+      
+      <text x="48" y="32" font-size="15" font-weight="700" fill="#0F172A">Fallback Final: Anthropic (Claude 3.5 Haiku)</text>
+      <rect x="360" y="18" width="90" height="20" rx="4" fill="#ECFDF5"/>
+      <text x="368" y="32" font-size="10" font-weight="600" fill="#059669">MÁXIMA PRECISÃO</text>
+
+      <text x="48" y="56" font-size="12" fill="#64748B">Custo: $0.80 / 1M In · $4.00 / 1M Out · Timeout: 30s</text>
+      <text x="48" y="76" font-size="12" fill="#64748B">SLA Garantido: 99.99% de entrega sem erro final ao cliente</text>
+
+      <rect x="620" y="20" width="76" height="26" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="632" y="37" font-size="11" font-weight="600" fill="#475569">Editar</text>
+    </g>
+
+    <!-- ADD NODE BUTTON -->
+    <rect x="24" y="560" width="712" height="42" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="6"/>
+    <text x="310" y="586" font-size="12" font-weight="600" fill="#4F46E5">+ Arrastar ou Inserir Próximo Alvo de Failover</text>
+
+    <!-- RIGHT: STRATEGY & METRICS PREVIEW (384px) -->
+    <rect x="780" y="70" width="384" height="710" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="804" y="104" font-size="16" font-weight="700" fill="#0F172A">Simulador de Custos &amp; SLA</text>
+    <text x="804" y="122" font-size="11" fill="#64748B">Estimativa baseada no tráfego das últimas 24h</text>
+
+    <rect x="804" y="140" width="336" height="100" rx="8" fill="#EEF2FF"/>
+    <text x="820" y="165" font-size="12" font-weight="600" fill="#4F46E5">Economia Média Projetada</text>
+    <text x="820" y="200" font-size="28" font-weight="700" fill="#312E81">78.4%</text>
+    <text x="820" y="222" font-size="11" fill="#4338CA">vs usar modelo topo de linha em 100% dos calls</text>
+
+    <rect x="804" y="255" width="336" height="100" rx="8" fill="#ECFDF5"/>
+    <text x="820" y="280" font-size="12" font-weight="600" fill="#059669">Disponibilidade / Resiliência</text>
+    <text x="820" y="315" font-size="28" font-weight="700" fill="#064E3B">99.98%</text>
+    <text x="820" y="337" font-size="11" fill="#047857">Zero erros 429 propagados para o usuário</text>
+
+    <!-- ESTRATÉGIAS DISPONÍVEIS -->
+    <text x="804" y="380" font-size="14" font-weight="700" fill="#0F172A">Selecione a Estratégia</text>
+    
+    <rect x="804" y="400" width="336" height="48" rx="6" fill="#F8FAFC" stroke="#4F46E5" stroke-width="1.5"/>
+    <circle cx="824" cy="424" r="5" fill="#4F46E5"/>
+    <text x="838" y="420" font-size="12" font-weight="600" fill="#0F172A">Priority (Failover Linear)</text>
+    <text x="838" y="436" font-size="10" fill="#64748B">Tenta na ordem, salta em erro/cooldown</text>
+
+    <rect x="804" y="456" width="336" height="48" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="824" cy="480" r="5" fill="#94A3B8"/>
+    <text x="838" y="476" font-size="12" font-weight="600" fill="#0F172A">Cost-Optimized (Eco Mode)</text>
+    <text x="838" y="492" font-size="10" fill="#64748B">Prioriza menor preço com >98% de sucesso</text>
+
+    <rect x="804" y="512" width="336" height="48" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="824" cy="536" r="5" fill="#94A3B8"/>
+    <text x="838" y="532" font-size="12" font-weight="600" fill="#0F172A">Headroom &amp; Reset-Aware</text>
+    <text x="838" y="548" font-size="10" fill="#64748B">Evita provedores perto do limite de tokens</text>
+
+    <rect x="804" y="568" width="336" height="48" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="824" cy="592" r="5" fill="#94A3B8"/>
+    <text x="838" y="588" font-size="12" font-weight="600" fill="#0F172A">Fusion (Parallel + Judge)</text>
+    <text x="838" y="604" font-size="10" fill="#64748B">Dispara múltiplos em paralelo e sintetiza</text>
+  </g>
+</svg>

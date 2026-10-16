@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" style="background:#F8FAFC;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="shadow-card" x="-2%" y="-2%" width="104%" height="106%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+    <linearGradient id="grad-indigo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="grad-pink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EC4899" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#EC4899" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- TOPBAR -->
+  <rect x="0" y="0" width="1440" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="40" cy="32" r="14" fill="#4F46E5"/>
+  <path d="M35 32 L39 26 L45 38 L41 32 Z" fill="#FFFFFF"/>
+  <text x="64" y="37" font-size="16" font-weight="700" fill="#0F172A">ProxyAI</text>
+  <rect x="135" y="24" width="75" height="18" rx="4" fill="#EEF2FF"/>
+  <text x="142" y="37" font-size="10" font-weight="600" fill="#4F46E5">ENTERPRISE</text>
+
+  <!-- SEARCH BAR -->
+  <rect x="250" y="16" width="380" height="34" rx="8" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="270" y="38" font-size="12" fill="#94A3B8">Buscar provedores, combos, rotas... (Cmd+K)</text>
+
+  <!-- USER & TENANT -->
+  <rect x="1140" y="18" width="130" height="30" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="1155" cy="33" r="5" fill="#10B981"/>
+  <text x="1168" y="38" font-size="11" font-weight="600" fill="#0F172A">Cluster: SP-01</text>
+  
+  <rect x="1290" y="18" width="125" height="30" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="1296" y="23" width="20" height="20" rx="10" fill="#4F46E5"/>
+  <text x="1302" y="37" font-size="10" font-weight="700" fill="#FFFFFF">AC</text>
+  <text x="1324" y="38" font-size="12" font-weight="600" fill="#0F172A">Acme Corp</text>
+
+  <!-- SIDEBAR -->
+  <rect x="0" y="64" width="220" height="836" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  
+  <!-- NAV ITEMS -->
+  <rect x="16" y="88" width="188" height="36" rx="8" fill="#EEF2FF"/>
+  <circle cx="36" cy="106" r="4" fill="#4F46E5"/>
+  <text x="52" y="111" font-size="13" font-weight="600" fill="#4F46E5">Dashboard Geral</text>
+
+  <rect x="16" y="132" width="188" height="36" rx="8" fill="transparent"/>
+  <circle cx="36" cy="150" r="4" fill="#94A3B8"/>
+  <text x="52" y="155" font-size="13" font-weight="500" fill="#475569">Hub de Provedores</text>
+
+  <rect x="16" y="176" width="188" height="36" rx="8" fill="transparent"/>
+  <circle cx="36" cy="194" r="4" fill="#94A3B8"/>
+  <text x="52" y="199" font-size="13" font-weight="500" fill="#475569">Construtor Combos</text>
+
+  <rect x="16" y="220" width="188" height="36" rx="8" fill="transparent"/>
+  <circle cx="36" cy="238" r="4" fill="#94A3B8"/>
+  <text x="52" y="243" font-size="13" font-weight="500" fill="#475569">Chaves Virtuais</text>
+
+  <rect x="16" y="264" width="188" height="36" rx="8" fill="transparent"/>
+  <circle cx="36" cy="282" r="4" fill="#94A3B8"/>
+  <text x="52" y="287" font-size="13" font-weight="500" fill="#475569">Faturamento &amp; Ledger</text>
+
+  <rect x="16" y="308" width="188" height="36" rx="8" fill="transparent"/>
+  <circle cx="36" cy="326" r="4" fill="#94A3B8"/>
+  <text x="52" y="331" font-size="13" font-weight="500" fill="#475569">Logs ao Vivo (SSE)</text>
+
+  <!-- MAIN VIEWPORT -->
+  <g transform="translate(244, 88)">
+    <!-- HEADER -->
+    <text x="0" y="24" font-size="22" font-weight="700" fill="#0F172A">Visão Geral da Operação</text>
+    <text x="0" y="44" font-size="12" fill="#64748B">Monitoramento de inferência em tempo real, custos agregados e circuit breakers</text>
+
+    <!-- 4 KPI CARDS -->
+    <!-- KPI 1 -->
+    <rect x="0" y="64" width="276" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="16" y="90" font-size="12" font-weight="600" fill="#64748B">Requisições (24h)</text>
+    <text x="16" y="126" font-size="24" font-weight="700" fill="#0F172A">4.82M</text>
+    <rect x="180" y="78" width="80" height="20" rx="10" fill="#ECFDF5"/>
+    <text x="190" y="92" font-size="10" font-weight="600" fill="#059669">+14.2%</text>
+
+    <!-- KPI 2 -->
+    <rect x="296" y="64" width="276" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="312" y="90" font-size="12" font-weight="600" fill="#64748B">Custo Real Upstream</text>
+    <text x="312" y="126" font-size="24" font-weight="700" fill="#0F172A">$1,248.30</text>
+    <rect x="476" y="78" width="80" height="20" rx="10" fill="#F1F5F9"/>
+    <text x="486" y="92" font-size="10" font-weight="600" fill="#475569">358 Provedores</text>
+
+    <!-- KPI 3 -->
+    <rect x="592" y="64" width="276" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="608" y="90" font-size="12" font-weight="600" fill="#64748B">Faturado / Margem</text>
+    <text x="608" y="126" font-size="24" font-weight="700" fill="#0F172A">$2,496.60</text>
+    <rect x="772" y="78" width="80" height="20" rx="10" fill="#EEF2FF"/>
+    <text x="782" y="92" font-size="10" font-weight="600" fill="#4F46E5">+50.0% Lucro</text>
+
+    <!-- KPI 4 -->
+    <rect x="888" y="64" width="276" height="96" rx="10" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="904" y="90" font-size="12" font-weight="600" fill="#64748B">Latência TTFT (p95)</text>
+    <text x="904" y="126" font-size="24" font-weight="700" fill="#0F172A">132ms</text>
+    <rect x="1068" y="78" width="80" height="20" rx="10" fill="#ECFDF5"/>
+    <text x="1078" y="92" font-size="10" font-weight="600" fill="#059669">Saudável</text>
+
+    <!-- BIG CHART: TOKENS VOLUME (STREAMING) -->
+    <rect x="0" y="180" width="760" height="340" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="24" y="214" font-size="14" font-weight="700" fill="#0F172A">Volume de Tokens em Streaming (Últimas 12h)</text>
+    <text x="24" y="232" font-size="11" fill="#94A3B8">Separação em tempo real: Prompt Tokens vs Completion Tokens</text>
+    
+    <!-- LEGEND -->
+    <circle cx="580" cy="216" r="4" fill="#4F46E5"/>
+    <text x="590" y="220" font-size="11" fill="#475569">Completion (Saída)</text>
+    <circle cx="680" cy="216" r="4" fill="#EC4899"/>
+    <text x="690" y="220" font-size="11" fill="#475569">Prompt (Entrada)</text>
+
+    <!-- CHART GRAPHIC -->
+    <path d="M 40 460 Q 150 410, 260 430 T 480 340 T 700 370 L 700 480 L 40 480 Z" fill="url(#grad-indigo)"/>
+    <path d="M 40 460 Q 150 410, 260 430 T 480 340 T 700 370" fill="none" stroke="#4F46E5" stroke-width="2.5"/>
+
+    <path d="M 40 475 Q 150 440, 260 455 T 480 395 T 700 420 L 700 480 L 40 480 Z" fill="url(#grad-pink)"/>
+    <path d="M 40 475 Q 150 440, 260 455 T 480 395 T 700 420" fill="none" stroke="#EC4899" stroke-width="2"/>
+
+    <!-- CIRCUIT BREAKER LIVE PANEL -->
+    <rect x="784" y="180" width="380" height="340" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="804" y="214" font-size="14" font-weight="700" fill="#0F172A">Saúde dos Provedores &amp; Breakers</text>
+    <text x="804" y="232" font-size="11" fill="#94A3B8">Status automático de failover e janelas de rate-limit</text>
+
+    <!-- ITEM 1 -->
+    <rect x="804" y="250" width="340" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="824" cy="276" r="5" fill="#10B981"/>
+    <text x="838" y="275" font-size="13" font-weight="600" fill="#0F172A">OpenAI (API Key)</text>
+    <text x="838" y="291" font-size="10" fill="#64748B">Latência: 182ms · Falhas: 0.01%</text>
+    <rect x="1050" y="264" width="80" height="24" rx="12" fill="#ECFDF5"/>
+    <text x="1068" y="280" font-size="10" font-weight="700" fill="#059669">CLOSED</text>
+
+    <!-- ITEM 2 -->
+    <rect x="804" y="312" width="340" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="824" cy="338" r="5" fill="#10B981"/>
+    <text x="838" y="337" font-size="13" font-weight="600" fill="#0F172A">Claude 3.5 Sonnet (OAuth)</text>
+    <text x="838" y="353" font-size="10" fill="#64748B">Latência: 240ms · Token Auto-Refresh OK</text>
+    <rect x="1050" y="326" width="80" height="24" rx="12" fill="#ECFDF5"/>
+    <text x="1068" y="342" font-size="10" font-weight="700" fill="#059669">CLOSED</text>
+
+    <!-- ITEM 3 -->
+    <rect x="804" y="374" width="340" height="52" rx="8" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1"/>
+    <circle cx="824" cy="400" r="5" fill="#F59E0B"/>
+    <text x="838" y="399" font-size="13" font-weight="600" fill="#92400E">DeepSeek V3 (Local/Pool)</text>
+    <text x="838" y="415" font-size="10" fill="#B45309">Rate-Limit 429 detectado · Fallback ativo</text>
+    <rect x="1050" y="388" width="80" height="24" rx="12" fill="#FEF3C7"/>
+    <text x="1060" y="404" font-size="10" font-weight="700" fill="#D97706">DEGRADED</text>
+
+    <!-- ITEM 4 -->
+    <rect x="804" y="436" width="340" height="52" rx="8" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <circle cx="824" cy="462" r="5" fill="#10B981"/>
+    <text x="838" y="461" font-size="13" font-weight="600" fill="#0F172A">DuckDuckGo Web (Stealth)</text>
+    <text x="838" y="477" font-size="10" fill="#64748B">Sidecar Playwright ativo · VQD OK</text>
+    <rect x="1050" y="450" width="80" height="24" rx="12" fill="#ECFDF5"/>
+    <text x="1068" y="466" font-size="10" font-weight="700" fill="#059669">CLOSED</text>
+
+    <!-- RECENT TRANSACTIONS TABLE MINI -->
+    <rect x="0" y="540" width="1164" height="230" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="24" y="574" font-size="14" font-weight="700" fill="#0F172A">Últimas Execuções de Inferência e Conciliação</text>
+    
+    <!-- TABLE HEADER -->
+    <rect x="24" y="594" width="1116" height="32" rx="6" fill="#F8FAFC"/>
+    <text x="36" y="614" font-size="11" font-weight="700" fill="#64748B">HORA</text>
+    <text x="140" y="614" font-size="11" font-weight="700" fill="#64748B">CHAVE / CLIENTE</text>
+    <text x="340" y="614" font-size="11" font-weight="700" fill="#64748B">COMBO EXECUTADO</text>
+    <text x="560" y="614" font-size="11" font-weight="700" fill="#64748B">TOKENS (PROMPT / OUT)</text>
+    <text x="780" y="614" font-size="11" font-weight="700" fill="#64748B">CUSTO BASE</text>
+    <text x="920" y="614" font-size="11" font-weight="700" fill="#64748B">FATURADO</text>
+    <text x="1040" y="614" font-size="11" font-weight="700" fill="#64748B">STATUS</text>
+
+    <!-- ROW 1 -->
+    <text x="36" y="648" font-size="12" fill="#64748B">14:32:01</text>
+    <text x="140" y="648" font-size="12" font-weight="600" fill="#0F172A">pk-live-acme-dev</text>
+    <text x="340" y="648" font-size="12" fill="#4F46E5">Smart-Coder-Pro (OpenAI)</text>
+    <text x="560" y="648" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">1,420 / 380</text>
+    <text x="780" y="648" font-size="12" fill="#64748B">$0.0034</text>
+    <text x="920" y="648" font-size="12" font-weight="600" fill="#059669">$0.0068</text>
+    <rect x="1040" y="634" width="70" height="20" rx="10" fill="#ECFDF5"/>
+    <text x="1052" y="648" font-size="10" font-weight="700" fill="#059669">SETTLED</text>
+
+    <!-- ROW 2 -->
+    <text x="36" y="682" font-size="12" fill="#64748B">14:31:58</text>
+    <text x="140" y="682" font-size="12" font-weight="600" fill="#0F172A">pk-live-fintech-app</text>
+    <text x="340" y="682" font-size="12" fill="#EC4899">Fast-General (DDG Web)</text>
+    <text x="560" y="682" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">412 / 185</text>
+    <text x="780" y="682" font-size="12" fill="#64748B">$0.0000</text>
+    <text x="920" y="682" font-size="12" font-weight="600" fill="#059669">$0.0012</text>
+    <rect x="1040" y="668" width="70" height="20" rx="10" fill="#ECFDF5"/>
+    <text x="1052" y="682" font-size="10" font-weight="700" fill="#059669">SETTLED</text>
+
+    <!-- ROW 3 -->
+    <text x="36" y="716" font-size="12" fill="#64748B">14:31:45</text>
+    <text x="140" y="716" font-size="12" font-weight="600" fill="#0F172A">pk-live-agent-bot</text>
+    <text x="340" y="716" font-size="12" fill="#D97706">Failover (DeepSeek -> Claude)</text>
+    <text x="560" y="716" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">8,910 / 1,240</text>
+    <text x="780" y="716" font-size="12" fill="#64748B">$0.0182</text>
+    <text x="920" y="716" font-size="12" font-weight="600" fill="#059669">$0.0364</text>
+    <rect x="1040" y="702" width="70" height="20" rx="10" fill="#ECFDF5"/>
+    <text x="1052" y="716" font-size="10" font-weight="700" fill="#059669">SETTLED</text>
+  </g>
+</svg>

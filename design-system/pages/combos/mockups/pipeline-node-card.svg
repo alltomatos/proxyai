@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 130" width="740" height="130" style="background:#F8FAFC;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="shadow-node" x="-2%" y="-4%" width="104%" height="110%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- CARD DO NÓ DO PIPELINE -->
+  <rect x="0" y="5" width="736" height="114" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" filter="url(#shadow-node)"/>
+  
+  <!-- ÍCONE DE ARRASTE (DRAG HANDLE) -->
+  <g transform="translate(14, 48)" fill="#94A3B8">
+    <circle cx="2" cy="0" r="2"/>
+    <circle cx="8" cy="0" r="2"/>
+    <circle cx="2" cy="8" r="2"/>
+    <circle cx="8" cy="8" r="2"/>
+    <circle cx="2" cy="16" r="2"/>
+    <circle cx="8" cy="16" r="2"/>
+  </g>
+
+  <!-- BADGE DE ORDEM NUMÉRICA -->
+  <rect x="36" y="20" width="26" height="26" rx="13" fill="#4F46E5"/>
+  <text x="45" y="38" font-size="13" font-weight="700" fill="#FFFFFF">1</text>
+
+  <!-- TÍTULO DO ALVO -->
+  <text x="72" y="38" font-size="16" font-weight="700" fill="#0F172A">DeepSeek V3 (Local / Direto)</text>
+  <rect x="370" y="24" width="75" height="20" rx="4" fill="#EFF6FF"/>
+  <text x="378" y="38" font-size="10" font-weight="600" fill="#2563EB">ECONOMIA</text>
+
+  <!-- DETALHES DE CUSTO E TIMEOUT -->
+  <text x="72" y="66" font-size="12" fill="#64748B">Preço: $0.14 / 1M Prompt · $0.28 / 1M Completion · Timeout: 8s</text>
+  <text x="72" y="88" font-size="12" fill="#64748B">Condição de Salto: Se status = 429, 5xx ou Circuit Breaker = OPEN</text>
+
+  <!-- STATUS EM TEMPO REAL -->
+  <circle cx="560" cy="34" r="4.5" fill="#10B981"/>
+  <text x="572" y="38" font-size="11" font-weight="600" fill="#059669">Operacional (180ms)</text>
+
+  <!-- AÇÕES DO NÓ -->
+  <rect x="636" y="22" width="76" height="28" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="648" y="40" font-size="11" font-weight="600" fill="#475569">Ajustar</text>
+
+  <rect x="636" y="60" width="76" height="28" rx="6" fill="#FFF1F2" stroke="#FECDD3" stroke-width="1"/>
+  <text x="646" y="78" font-size="11" font-weight="600" fill="#E11D48">Remover</text>
+</svg>

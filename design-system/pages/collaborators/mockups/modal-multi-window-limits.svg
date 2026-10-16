@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 540" width="540" height="540" style="background:transparent;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="modal-shadow-limits" x="-5%" y="-5%" width="110%" height="115%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#0F172A" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="540" height="540" fill="#0F172A" fill-opacity="0.4"/>
+  <rect x="30" y="20" width="480" height="500" rx="14" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#modal-shadow-limits)"/>
+
+  <!-- HEADER -->
+  <text x="54" y="56" font-size="17" font-weight="700" fill="#0F172A">Configurar Limites Multi-Janela</text>
+  <text x="54" y="74" font-size="12" fill="#64748B">Defina cotas de segurança temporal para a Empresa e Membros</text>
+  <circle cx="480" cy="52" r="12" fill="#F1F5F9"/>
+  <text x="476" y="57" font-size="14" fill="#64748B">×</text>
+
+  <line x1="30" y1="92" x2="510" y2="92" stroke="#F1F5F9" stroke-width="1"/>
+
+  <!-- SELEÇÃO DE ALVO -->
+  <text x="54" y="118" font-size="12" font-weight="600" fill="#475569">Escopo dos Limites</text>
+  <g transform="translate(54, 128)">
+    <rect x="0" y="0" width="200" height="42" rx="6" fill="#EEF2FF" stroke="#4F46E5" stroke-width="1.5"/>
+    <text x="14" y="26" font-size="12" font-weight="700" fill="#4F46E5">Colaborador: Carlos Silva</text>
+
+    <rect x="220" y="0" width="200" height="42" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+    <text x="234" y="26" font-size="12" font-weight="600" fill="#64748B">Toda a Empresa (Acme)</text>
+  </g>
+
+  <!-- LIMITE 1: 5 HORAS -->
+  <g transform="translate(54, 195)">
+    <circle cx="10" cy="10" r="10" fill="#EFF6FF"/>
+    <text x="7" y="14" font-size="11" font-weight="700" fill="#2563EB">1</text>
+    <text x="28" y="14" font-size="13" font-weight="700" fill="#0F172A">Janela Móvel de 5 Horas</text>
+    <text x="28" y="30" font-size="11" fill="#64748B">Proteção contra loops e uso intensivo em curto prazo</text>
+    <rect x="28" y="38" width="392" height="36" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="40" y="61" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">R$ 35,00 / 5h</text>
+  </g>
+
+  <!-- LIMITE 2: SEMANAL -->
+  <g transform="translate(54, 285)">
+    <circle cx="10" cy="10" r="10" fill="#F3E8FF"/>
+    <text x="6" y="14" font-size="11" font-weight="700" fill="#7C3AED">2</text>
+    <text x="28" y="14" font-size="13" font-weight="700" fill="#0F172A">Teto Semanal (7 Dias)</text>
+    <text x="28" y="30" font-size="11" fill="#64748B">Distribui o consumo uniformemente ao longo do mês</text>
+    <rect x="28" y="38" width="392" height="36" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="40" y="61" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">R$ 150,00 / semana</text>
+  </g>
+
+  <!-- LIMITE 3: MENSAL TOTAL -->
+  <g transform="translate(54, 375)">
+    <circle cx="10" cy="10" r="10" fill="#ECFDF5"/>
+    <text x="6" y="14" font-size="11" font-weight="700" fill="#059669">3</text>
+    <text x="28" y="14" font-size="13" font-weight="700" fill="#0F172A">Teto Mensal do Ciclo</text>
+    <text x="28" y="30" font-size="11" fill="#64748B">Cota máxima contratada para o mês vigente</text>
+    <rect x="28" y="38" width="392" height="36" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="40" y="61" font-size="12" font-family="'JetBrains Mono', monospace" fill="#0F172A">R$ 500,00 / mês</text>
+  </g>
+
+  <!-- FOOTER -->
+  <line x1="30" y1="465" x2="510" y2="465" stroke="#F1F5F9" stroke-width="1"/>
+  <rect x="290" y="478" width="95" height="34" rx="6" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+  <text x="316" y="500" font-size="12" font-weight="600" fill="#475569">Cancelar</text>
+
+  <rect x="395" y="478" width="105" height="34" rx="6" fill="#4F46E5"/>
+  <text x="410" y="500" font-size="12" font-weight="600" fill="#FFFFFF">Salvar Limites</text>
+</svg>

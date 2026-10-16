@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900" style="background:#F8FAFC;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="shadow-card" x="-2%" y="-2%" width="104%" height="106%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- TOPBAR -->
+  <rect x="0" y="0" width="1440" height="64" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <circle cx="40" cy="32" r="14" fill="#4F46E5"/>
+  <path d="M35 32 L39 26 L45 38 L41 32 Z" fill="#FFFFFF"/>
+  <text x="64" y="37" font-size="16" font-weight="700" fill="#0F172A">ProxyAI</text>
+  <rect x="135" y="24" width="75" height="18" rx="4" fill="#EEF2FF"/>
+  <text x="142" y="37" font-size="10" font-weight="600" fill="#4F46E5">ENTERPRISE</text>
+
+  <!-- USER -->
+  <rect x="1290" y="18" width="125" height="30" rx="6" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="1296" y="23" width="20" height="20" rx="10" fill="#4F46E5"/>
+  <text x="1302" y="37" font-size="10" font-weight="700" fill="#FFFFFF">AC</text>
+  <text x="1324" y="38" font-size="12" font-weight="600" fill="#0F172A">Acme Corp</text>
+
+  <!-- SIDEBAR -->
+  <rect x="0" y="64" width="220" height="836" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1"/>
+  <rect x="16" y="88" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="111" font-size="13" font-weight="500" fill="#475569">Dashboard Geral</text>
+
+  <rect x="16" y="132" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="155" font-size="13" font-weight="500" fill="#475569">Hub de Provedores</text>
+
+  <rect x="16" y="176" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="199" font-size="13" font-weight="500" fill="#475569">Construtor Combos</text>
+
+  <rect x="16" y="220" width="188" height="36" rx="8" fill="#EEF2FF"/>
+  <circle cx="36" cy="238" r="4" fill="#4F46E5"/>
+  <text x="52" y="243" font-size="13" font-weight="600" fill="#4F46E5">Equipe (OpenCode)</text>
+
+  <rect x="16" y="264" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="287" font-size="13" font-weight="500" fill="#475569">Chaves de API</text>
+
+  <rect x="16" y="308" width="188" height="36" rx="8" fill="transparent"/>
+  <text x="52" y="331" font-size="13" font-weight="500" fill="#475569">Faturamento &amp; Ledger</text>
+
+  <!-- MAIN VIEWPORT -->
+  <g transform="translate(244, 88)">
+    <text x="0" y="24" font-size="22" font-weight="700" fill="#0F172A">Gestão de Colaboradores &amp; Acesso OpenCode</text>
+    <text x="0" y="44" font-size="12" fill="#64748B">Cadastre credenciais corporativas e defina cotas individuais de IA para os desenvolvedores no OpenCode</text>
+
+    <!-- ACTION BUTTON -->
+    <rect x="974" y="14" width="190" height="36" rx="8" fill="#4F46E5"/>
+    <text x="996" y="37" font-size="13" font-weight="600" fill="#FFFFFF">+ Novo Colaborador</text>
+
+    <!-- CLI CONNECTION BANNER -->
+    <rect x="0" y="68" width="1164" height="68" rx="10" fill="#F0FDF4" stroke="#BBF7D0" stroke-width="1"/>
+    <circle cx="28" cy="102" r="10" fill="#22C55E"/>
+    <text x="24" y="106" font-size="12" font-weight="700" fill="#FFFFFF">i</text>
+    <text x="48" y="96" font-size="13" font-weight="700" fill="#15803D">Como os colaboradores conectam no OpenCode:</text>
+    <text x="48" y="116" font-size="12" fill="#166534">Basta executar no terminal da máquina do desenvolvedor:</text>
+    <rect x="420" y="86" width="560" height="30" rx="6" fill="#FFFFFF" stroke="#86EFAC" stroke-width="1"/>
+    <text x="435" y="106" font-size="11" font-family="'JetBrains Mono', monospace" font-weight="600" fill="#0F172A">opencode auth login --proxy https://proxy.acme.com --tenant acme</text>
+
+    <!-- 3 SEATS SUMMARY CARDS -->
+    <rect x="0" y="152" width="370" height="96" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="24" y="180" font-size="12" font-weight="600" fill="#64748B">Seats Ativos no OpenCode</text>
+    <text x="24" y="218" font-size="26" font-weight="700" fill="#0F172A">8 / 12 Licenças</text>
+    <rect x="250" y="164" width="100" height="22" rx="11" fill="#ECFDF5"/>
+    <text x="264" y="179" font-size="10" font-weight="600" fill="#059669">4 Disponíveis</text>
+
+    <rect x="396" y="152" width="370" height="96" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="420" y="180" font-size="12" font-weight="600" fill="#64748B">Gasto Total da Equipe (Mês)</text>
+    <text x="420" y="218" font-size="26" font-weight="700" fill="#4F46E5">R$ 1.840,20</text>
+    <rect x="656" y="164" width="90" height="22" rx="11" fill="#EEF2FF"/>
+    <text x="668" y="179" font-size="10" font-weight="600" fill="#4F46E5">Teto: R$ 5.000</text>
+
+    <rect x="792" y="152" width="370" height="96" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    <text x="816" y="180" font-size="12" font-weight="600" fill="#64748B">Média de Consumo por Dev</text>
+    <text x="816" y="218" font-size="26" font-weight="700" fill="#059669">R$ 230,00 / dev</text>
+    <rect x="1052" y="164" width="90" height="22" rx="11" fill="#ECFDF5"/>
+    <text x="1066" y="179" font-size="10" font-weight="600" fill="#059669">Dentro da Cota</text>
+
+    <!-- COLLABORATORS TABLE -->
+    <rect x="0" y="264" width="1164" height="500" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-card)"/>
+    
+    <!-- TABLE HEADER -->
+    <rect x="24" y="286" width="1116" height="36" rx="6" fill="#F8FAFC"/>
+    <text x="36" y="308" font-size="11" font-weight="700" fill="#64748B">COLABORADOR / LOGIN</text>
+    <text x="260" y="308" font-size="11" font-weight="700" fill="#64748B">FUNÇÃO / CARGO</text>
+    <text x="420" y="308" font-size="11" font-weight="700" fill="#64748B">MODELOS AUTORIZADOS</text>
+    <text x="660" y="308" font-size="11" font-weight="700" fill="#64748B">CONSUMO PESSOAL / COTA</text>
+    <text x="940" y="308" font-size="11" font-weight="700" fill="#64748B">STATUS</text>
+    <text x="1050" y="308" font-size="11" font-weight="700" fill="#64748B">AÇÕES</text>
+
+    <!-- ROW 1: CARLOS (TECH LEAD) -->
+    <g transform="translate(24, 334)">
+      <rect x="0" y="0" width="1116" height="60" rx="4" fill="#FFFFFF"/>
+      <circle cx="20" cy="30" r="14" fill="#EEF2FF"/>
+      <text x="14" y="34" font-size="11" font-weight="700" fill="#4F46E5">CS</text>
+      <text x="44" y="26" font-size="13" font-weight="700" fill="#0F172A">Carlos Silva</text>
+      <text x="44" y="42" font-size="11" fill="#64748B">user: carlos.silva@acme.com · OpenCode v1.4</text>
+
+      <text x="236" y="34" font-size="12" font-weight="600" fill="#0F172A">Tech Lead</text>
+
+      <g transform="translate(396, 20)">
+        <rect x="0" y="0" width="105" height="20" rx="4" fill="#ECFDF5"/>
+        <text x="8" y="14" font-size="10" font-weight="600" fill="#059669">Acesso Total (All)</text>
+      </g>
+
+      <!-- BARRA DE COTA 58% -->
+      <g transform="translate(636, 18)">
+        <text x="0" y="10" font-size="11" font-weight="600" fill="#0F172A">R$ 290,00 / R$ 500,00 (58%)</text>
+        <rect x="0" y="18" width="240" height="6" rx="3" fill="#F1F5F9"/>
+        <rect x="0" y="18" width="139" height="6" rx="3" fill="#4F46E5"/>
+      </g>
+
+      <rect x="916" y="18" width="70" height="22" rx="11" fill="#ECFDF5"/>
+      <text x="930" y="33" font-size="10" font-weight="700" fill="#059669">ATIVO</text>
+
+      <rect x="1026" y="16" width="70" height="26" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="1042" y="33" font-size="11" font-weight="600" fill="#475569">Editar</text>
+      <line x1="0" y1="59" x2="1116" y2="59" stroke="#F1F5F9" stroke-width="1"/>
+    </g>
+
+    <!-- ROW 2: BEATRIZ (DEV JUNIOR) -->
+    <g transform="translate(24, 396)">
+      <rect x="0" y="0" width="1116" height="60" rx="4" fill="#FFFFFF"/>
+      <circle cx="20" cy="30" r="14" fill="#F3E8FF"/>
+      <text x="14" y="34" font-size="11" font-weight="700" fill="#7C3AED">BL</text>
+      <text x="44" y="26" font-size="13" font-weight="700" fill="#0F172A">Beatriz Lima</text>
+      <text x="44" y="42" font-size="11" fill="#64748B">user: beatriz.lima@acme.com · OpenCode v1.4</text>
+
+      <text x="236" y="34" font-size="12" font-weight="600" fill="#0F172A">Dev Frontend Jr</text>
+
+      <g transform="translate(396, 20)">
+        <rect x="0" y="0" width="90" height="20" rx="4" fill="#EFF6FF"/>
+        <text x="8" y="14" font-size="10" font-weight="600" fill="#2563EB">Fast-Coder</text>
+        <rect x="96" y="0" width="80" height="20" rx="4" fill="#F1F5F9"/>
+        <text x="104" y="14" font-size="10" font-weight="600" fill="#475569">gpt-4o-mini</text>
+      </g>
+
+      <!-- BARRA DE COTA 92% -->
+      <g transform="translate(636, 18)">
+        <text x="0" y="10" font-size="11" font-weight="600" fill="#D97706">R$ 92,00 / R$ 100,00 (92%)</text>
+        <rect x="0" y="18" width="240" height="6" rx="3" fill="#F1F5F9"/>
+        <rect x="0" y="18" width="220" height="6" rx="3" fill="#F59E0B"/>
+      </g>
+
+      <rect x="916" y="18" width="76" height="22" rx="11" fill="#FFFBEB"/>
+      <text x="926" y="33" font-size="10" font-weight="700" fill="#D97706">ALERTA</text>
+
+      <rect x="1026" y="16" width="70" height="26" rx="4" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="1"/>
+      <text x="1042" y="33" font-size="11" font-weight="600" fill="#475569">Editar</text>
+      <line x1="0" y1="59" x2="1116" y2="59" stroke="#F1F5F9" stroke-width="1"/>
+    </g>
+
+    <!-- ROW 3: LUCAS (COTA ESTOURADA) -->
+    <g transform="translate(24, 458)">
+      <rect x="0" y="0" width="1116" height="60" rx="4" fill="#FFF1F2"/>
+      <circle cx="20" cy="30" r="14" fill="#FEE2E2"/>
+      <text x="14" y="34" font-size="11" font-weight="700" fill="#DC2626">LM</text>
+      <text x="44" y="26" font-size="13" font-weight="700" fill="#991B1B">Lucas Mendes</text>
+      <text x="44" y="42" font-size="11" fill="#B91C1C">user: lucas.m@acme.com · OpenCode v1.4</text>
+
+      <text x="236" y="34" font-size="12" font-weight="600" fill="#991B1B">Estagiário Dev</text>
+
+      <g transform="translate(396, 20)">
+        <rect x="0" y="0" width="75" height="20" rx="4" fill="#F1F5F9"/>
+        <text x="8" y="14" font-size="10" font-weight="600" fill="#475569">Eco-Mode</text>
+      </g>
+
+      <!-- BARRA DE COTA 100% BLOQUEADA -->
+      <g transform="translate(636, 18)">
+        <text x="0" y="10" font-size="11" font-weight="700" fill="#DC2626">R$ 50,00 / R$ 50,00 (100% BLOQUEADO)</text>
+        <rect x="0" y="18" width="240" height="6" rx="3" fill="#FEE2E2"/>
+        <rect x="0" y="18" width="240" height="6" rx="3" fill="#DC2626"/>
+      </g>
+
+      <rect x="916" y="18" width="70" height="22" rx="11" fill="#FEF2F2"/>
+      <text x="926" y="33" font-size="10" font-weight="700" fill="#DC2626">429 CAP</text>
+
+      <rect x="1026" y="16" width="70" height="26" rx="4" fill="#FFFFFF" stroke="#FECDD3" stroke-width="1"/>
+      <text x="1042" y="33" font-size="11" font-weight="600" fill="#E11D48">Editar</text>
+    </g>
+  </g>
+</svg>

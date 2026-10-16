@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 140" width="1180" height="140" style="background:#F8FAFC;font-family:'Plus Jakarta Sans','Inter',system-ui,sans-serif;">
+  <defs>
+    <filter id="shadow-billing" x="-2%" y="-3%" width="104%" height="108%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
+  </defs>
+
+  <!-- CARD 1: SALDO PRÉ-PAGO DISPONÍVEL -->
+  <g transform="translate(0, 10)">
+    <rect x="0" y="0" width="374" height="120" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-billing)"/>
+    <text x="24" y="32" font-size="13" font-weight="600" fill="#64748B">Saldo Pré-Pago Disponível</text>
+    <text x="24" y="74" font-size="30" font-weight="700" fill="#0F172A">R$ 4.850,20</text>
+    <circle cx="28" cy="98" r="4" fill="#10B981"/>
+    <text x="38" y="102" font-size="11" fill="#059669">Reserva ativa no Redis (Holds): R$ 12,40</text>
+  </g>
+
+  <!-- CARD 2: COTA DO PLANO MENSAL -->
+  <g transform="translate(402, 10)">
+    <rect x="0" y="0" width="374" height="120" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-billing)"/>
+    <text x="24" y="32" font-size="13" font-weight="600" fill="#64748B">Cota do Plano Mensal (Pro)</text>
+    <text x="24" y="74" font-size="30" font-weight="700" fill="#4F46E5">68% <tspan font-size="16" font-weight="500" fill="#64748B">usado</tspan></text>
+    
+    <!-- PROGRESS BAR -->
+    <rect x="24" y="94" width="326" height="8" rx="4" fill="#F1F5F9"/>
+    <rect x="24" y="94" width="221" height="8" rx="4" fill="#4F46E5"/>
+  </g>
+
+  <!-- CARD 3: MARGEM DE REVENDA -->
+  <g transform="translate(804, 10)">
+    <rect x="0" y="0" width="374" height="120" rx="12" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="1" filter="url(#shadow-billing)"/>
+    <text x="24" y="32" font-size="13" font-weight="600" fill="#64748B">Margem de Revenda Bruta</text>
+    <text x="24" y="74" font-size="30" font-weight="700" fill="#059669">+ R$ 2.410,80</text>
+    <text x="24" y="102" font-size="11" fill="#64748B">Multiplicador médio aplicado: 2.0x (100% markup)</text>
+  </g>
+</svg>
