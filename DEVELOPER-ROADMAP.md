@@ -8,7 +8,7 @@
 - [**[E01] Data Plane: Engine de Streaming e Proxy em Go**](https://github.com/alltomatos/proxyai/issues/1) - `done`
 - [**[E02] Autenticação Híbrida & Sidecar de Provedores Web com Webshare**](https://github.com/alltomatos/proxyai/issues/2) - `done`
 - [**[E03] Sistema Comercial: Faturamento e Ledger Atômico**](https://github.com/alltomatos/proxyai/issues/3) - `done`
-- [**[E04] Frontend Dashboard Ultra Rápido (SPA)**](https://github.com/alltomatos/proxyai/issues/4) - `in_progress`
+- [**[E04] Frontend Dashboard Ultra Rápido (SPA)**](https://github.com/alltomatos/proxyai/issues/4) - `done`
 - [**[E05] Servidor MCP Gerencial Integrado**](https://github.com/alltomatos/proxyai/issues/5) - `done`
 - [**[E06] Governança Multi-Empresa, Seats e Acesso OpenCode**](https://github.com/alltomatos/proxyai/issues/6) - `done`
 
