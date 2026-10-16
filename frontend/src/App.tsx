@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { 
   Activity, 
   Server, 
@@ -8,8 +8,7 @@ import {
   CreditCard, 
   CheckCircle2, 
   AlertTriangle, 
-  Terminal,
-  Zap
+  Terminal
 } from "lucide-react";
 
 export function App() {
